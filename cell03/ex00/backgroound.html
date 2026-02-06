@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="backgroound.css">
 </head>
+
 <body>
     <div class="container">
-        <button onclick="changeBackground()"> Click me! </button>
+        <button id="myButton" onclick="changeBackground()"> Click me! </button>
     </div>
 
     <script>
+        let scale = 1; // ขนาดเริ่มต้นของปุ่ม
+
         function changeBackground() {
             document.body.style.backgroundColor = getRandomColor();
+
+            // ขยายปุ่ม
+            scale += 0.1;
+            document.getElementById("myButton").style.transform = `scale(${scale})`;
         }
+
         function getRandomColor() {
             const letters = '0123456789ABCDEF';
             let color = '#';
@@ -25,4 +34,5 @@
         }
     </script>
 </body>
+
 </html>

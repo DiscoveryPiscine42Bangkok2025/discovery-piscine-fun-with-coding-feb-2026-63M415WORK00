@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Basics </title>
-</head>
-<style>
-    * {
-        background-color: pink;
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-    }
-    .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-        h1 {
-            color: white;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basics</title>
+        <style>
+            *{
+    box-sizing: border-box;
+}
 
-    }
-    .container-img {
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-        margin-top: 20px;
+body {
+    background-color: pink;
+}
 
-        img {
-            border-radius: 20px;
-            width: 400px;
-            height: 400px;
-        }
-        .card {
-            height: 200px;
-        }
-    }
-    footer {
-        display: flex;
-        justify-content: end;
-        padding: 10px 40px;
-        border-top: 1px solid white;
-    }
-</style>
-<body>
-    <section class="content">
-        <h1> Online Shopping! </h1>
-        <div class="container-img">
-            <div class="card">
-                <img class="img1" src="https://static.wixstatic.com/media/0862a1_baefc9d1d9a94ee5aab8fdbc5c5b506b~mv2.jpg/v1/fill/w_553,h_553,al_c,lg_1,q_80,enc_auto/0862a1_baefc9d1d9a94ee5aab8fdbc5c5b506b~mv2.jpg" alt="">
-                <p>@lazada.com</p>
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.image {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    height: 5%;
+    width: 99%;
+    position: absolute;
+    bottom: 2%;
+    font-family: monospace;
+    font-style: italic;
+    text-align: right;
+    padding-right: 20px;
+}
+        </style>
+
+    </head>
+    <body>
+        <h1>-Online Shoping-</h1>
+            <div class="image">
+            <div>
+                <img src="https://i.pinimg.com/originals/d7/af/32/d7af326b85e62c293dba7bad9f4f1757.jpg" width="500px" height="500px" hspace="15px">
+                <a href="https://th.hm.com/th_th/sale/ladies/view-all.html?gclid=CjwKCAjwkaSaBhA4EiwALBgQaD-gBIAzym1oUZAhQsjyVEF8oxEoKlaYLPQghdUi70rfTXZbQ3unoBoCqb4QAvD_BwE">
+                    <h2>Click Here</h2>
+                </a>
             </div>
-            <div class="card">
-                <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRptwOHnvgwb07fGVXInoQgZKo2atFaYXLM-g&s" alt="">
-                <p>@shopee.com</p>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UNIQLO_logo.svg/1029px-UNIQLO_logo.svg.png" width="500px" height="500px">
+                <a href="https://www.uniqlo.com/th/th/?gclid=CjwKCAjwkaSaBhA4EiwALBgQaDrUvLE1pRNB9bcMWe13G1HdjftGuQ8wra4hB0hYfBzthXeyQoZqUhoCK6MQAvD_BwE">
+                    <h2>Click Here</h2>
+                </a>
             </div>
-        </div>
-    </section>
-    <footer>
-        <p> &copy wil 2021 </p>
-    </footer>
-</body>
+            </div>
+        <footer>
+            <hr>
+            <h3>© paduangk 2026</h3>
+        </footer>
+    </body>
 </html>
