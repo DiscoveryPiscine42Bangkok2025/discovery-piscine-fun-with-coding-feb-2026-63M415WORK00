@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio ของเราแสดงผลงานและประสบการณ์">
+    <title>Our Portfolio - หน้าแรก</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">✨ Our Portfolio</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" onclick="closeMenu()">หน้าแรก</a></li>
+                <li><a href="person1.html" onclick="closeMenu()">ONGSA</a></li>
+                <li><a href="person2.html" onclick="closeMenu()">PATITTA</a></li>
+                <li><a href="#contact" onclick="closeMenu()">ติดต่อเรา</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>ยินดีต้อนรับสู่ Portfolio ของพวกเรา</h1>
+            <p>แสดงผลงานและประสบการณ์ที่ช่ำชองหลายสิบปีที่เกิดมาของเราอย่างเจ๋งแจ๋ว</p>
+            <div class="hero-buttons">
+                <a href="person1.html" class="btn btn-primary">ONGSA</a>
+                <a href="person2.html" class="btn btn-secondary">PATITTA</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <div class="container">
+        <section class="team-section">
+            <h2 class="section-title">มารู้จักพวกเรากันเต๊อะ</h2>
+            <p class="section-subtitle">พวกเราคือสัตว์วิเศษสองตัวสุดท้ายในโลก โปรดอนุรักษ์พวกเรา!</p>
+            
+            <div class="team-grid">
+                <!-- Person 1 Card -->
+                <div class="team-card">
+                    <div class="team-image-wrapper">
+                        <img src="images/person1/profile.png" alt="Person 1" class="team-image" onerror="this.src='https://www.claudeusercontent.com/api/placeholder/300/300'">
+                        <div class="team-overlay">
+                            <a href="person1.html" class="btn btn-view">ดูโปรไฟล์</a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Ongsa Theanchai</h3>
+                        <p class="team-role">Super Big Pig</p>
+                        <p class="team-bio">สุดยอดหมูนักวอลเลย์บอลระดับทางช้างเผือก</p>
+                        <div class="team-skills">
+                            <span class="mini-skill">นอน</span>
+                            <span class="mini-skill">อ้วน</span>
+                            <span class="mini-skill">กิน</span>
+                        </div>
+                        <a href="person1.html" class="view-portfolio">ดูผลงานทั้งหมด →</a>
+                    </div>
+                </div>
+
+                <!-- Person 2 Card -->
+                <div class="team-card">
+                    <div class="team-image-wrapper">
+                        <img src="images/person2/profile.jpg" alt="Person 2" class="team-image" onerror="this.src='https://www.claudeusercontent.com/api/placeholder/300/300'">
+                        <div class="team-overlay">
+                            <a href="person2.html" class="btn btn-view">ดูโปรไฟล์</a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Patitta Duangkaew</h3>
+                        <p class="team-role">Super Cute Pingu</p>
+                        <p class="team-bio">เพนกวินอิ่มนมนักว่ายน้ำซุปเปอร์สตาร์</p>
+                        <div class="team-skills">
+                            <span class="mini-skill">ว่ายน้ำ</span>
+                            <span class="mini-skill">อ่านหนังสือ</span>
+                            <span class="mini-skill">นั่งสมาธิ</span>
+                        </div>
+                        <a href="person2.html" class="view-portfolio">ดูผลงานทั้งหมด →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>ติดต่อเรา</h2>
+        <p>หากมีวาสนา แม้ห่างไกลพ้นลี้ยังได้พบหน้า</p>
+        <p>หากไร้ซึ่งวาสนา แม้อยู่ตรงข้ามก็ไม่พบเจอ</p>
+        <div class="footer-links">
+            <a href="person1.html">ONGSA</a>
+            <a href="person2.html">PATITTA</a>
+        </div>
+        <p style="margin-top: 2rem; opacity: 0.6;">© 2026 Our Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

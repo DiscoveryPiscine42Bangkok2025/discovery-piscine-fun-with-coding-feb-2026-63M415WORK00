@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio ของคนที่ 1 - Web Developer">
+    <title>ONGSA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">✨ Portfolio</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" onclick="closeMenu()">หน้าแรก</a></li>
+                <li><a href="#profile" onclick="closeMenu()">โปรไฟล์</a></li>
+                <li><a href="#experience" onclick="closeMenu()">ประสบการณ์</a></li>
+                <li><a href="#portfolio" onclick="closeMenu()">ผลงาน</a></li>
+                <li><a href="#contact" onclick="closeMenu()">ติดต่อ</a></li>
+                <li><a href="person2.html" onclick="closeMenu()">PATITTA</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Back to Home -->
+    <div class="back-home">
+        <a href="index.html">← กลับหน้าแรก</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container" style="padding-top: 6rem;">
+        <section class="person-section" id="profile">
+            <!-- Profile Card -->
+            <div class="profile-card">
+                <div class="profile-content">
+                    <img src="images/person1/profile.png" alt="Person 1" class="profile-image"
+                        onerror="this.src='https://www.claudeusercontent.com/api/placeholder/200/200'">
+                    <div class="profile-info">
+                        <h2>Ongsa Theanchai</h2>
+                        <p class="job-title">Super Big Pig</p>
+                        <p class="bio">สวัสดีครับ! ผมเป็นเกย์มุสลิมผู้ชื่นชอบการเล่นวอลเลย์และเพนกวินอิ่มนม</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience & Skills -->
+            <div class="info-grid" id="experience">
+                <div class="info-card">
+                    <h3>ประสบการณ์การทำงาน</h3>
+                    <div class="experience-item">
+                        <p class="experience-year">2024 - ปัจจุบัน</p>
+                        <p class="experience-position">God Pigmus of the world</p>
+                        <p class="experience-company">Yam heart</p>
+                        <p class="experience-desc">ยังรักแยมเหมือนเดิมเพิ่มเติมคือได้เป็นหมูตามความฝัน</p>
+                    </div>
+                    <div class="experience-item">
+                        <p class="experience-year">2022 - 2024</p>
+                        <p class="experience-position">Yammy lover</p>
+                        <p class="experience-company">บริษัท รักแยมไม่ จำกัด</p>
+                        <p class="experience-desc">ข้าพเจ้าขอสัญญาว่าจะ รักแยมไม่ จำกัด ตลอดไป</p>
+                    </div>
+                    <div class="experience-item">
+                        <p class="experience-year">2020 - 2022</p>
+                        <p class="experience-position">Little Pigmus</p>
+                        <p class="experience-company">Junior Pig Academy</p>
+                        <p class="experience-desc">โรงเรียนสำหรับอิสลามฝึกหัดที่อยากจะเป็นหมู</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>ทักษะและความเชี่ยวชาญ</h3>
+                    <div class="skills-container">
+                        <span class="skill-tag">นอน20ชั่วโมง</span>
+                        <span class="skill-tag">ทรงตัวตอนเกือบล้มหน้าคว่ำได้อย่างชะงัดนัด</span>
+                        <span class="skill-tag">ไม่อาบน้ำ3วัน</span>
+                        <span class="skill-tag">ใช้ลิ้นตวัดช้อกโกแลตออกจากหลุม</span>
+                        <span class="skill-tag">คิดคำด่าคนอื่นได้รวดเร็วปานสายฟ้า</span>
+                        <span class="skill-tag">ปั้น baymax อ้วนๆ</span>
+                        <span class="skill-tag">ไม่จำเป็นต้องอ่านหนังสือสอบเพราะมีเพื่อนคู่กาย</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="portfolio-section" id="portfolio">
+                <h3>🎨 ผลงานของฉัน</h3>
+                <p class="portfolio-intro">รวมผลงานที่ภูมิใจและโปรเจคที่สำเร็จมาแล้ว</p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/person1/work1.jpg" alt="Work 1" class="portfolio-image"
+                            onerror="this.src='https://www.claudeusercontent.com/api/placeholder/400/300'">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Minor Role</h4>
+                            <p class="portfolio-description">นักแสดงประกอบฉากเรื่อง</p>
+                            <p class="portfolio-description">"ชีวิตเพื่อชาติ รักนี้เพื่อเธอ"</p>
+                            <p class="portfolio-description">โดยตายในสงครามเพราะเป็นลมบ้าหมู</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/person1/work2.jpg" alt="Work 2" class="portfolio-image"
+                            onerror="this.src='https://www.claudeusercontent.com/api/placeholder/400/300'">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Social Media App</h4>
+                            <p class="portfolio-description">แอปพลิเคชันโซเชียลมีเดีย สำหรับการแชร์ภาพและวิดีโอ
+                                Real-time พร้อมระบบแชทและการแจ้งเตือน</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/person1/work3.jpg" alt="Work 3" class="portfolio-image"
+                            onerror="this.src='https://www.claudeusercontent.com/api/placeholder/400/300'">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Dog to the Future</h4>
+                            <p class="portfolio-description">หมาตัวแรกของโลกที่ได้ข้ามเวลาไปทำความรู้จักเพื่อนในอนาคตที่ชื่อวิน</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/person1/work4.jpg" alt="Work 4" class="portfolio-image"
+                            onerror="this.src='https://www.claudeusercontent.com/api/placeholder/400/300'">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">The Mhoo Singer</h4>
+                            <p class="portfolio-description">เข้าร่วมรายการหน้ากากนักร้องในนามหน้ากากหมูดำดอยตุงโดยร้องเพลงซูลูปาก้าตาปาเฮ้</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/person1/work5.jpg" alt="Work 5" class="portfolio-image"
+                            onerror="this.src='https://www.claudeusercontent.com/api/placeholder/400/300'">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Volley gay party</h4>
+                            <p class="portfolio-description">เป็นแขกรับเชิญพิเศษในงานผู้เชียวชาญด้านเกย์นักวอลเลย์</p>
+                        </div>
+                    </div>
+                    <!-- Work 6 - เพิ่มใหม่ -->
+                    <div class="portfolio-item">
+                        <img src="images/person1/work6.jpg" alt="Work 6" class="portfolio-image"
+                            onerror="this.src='https://www.claudeusercontent.com/api/placeholder/400/300'">
+                        <div class="portfolio-overlay">
+                            <h4 class="portfolio-title">Tempura shrimp cosplay</h4>
+                            <p class="portfolio-description">ชนะการประกวดคอสเพลย์เป็นกุ้งเทมปุระ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="contact-card" id="contact">
+                <h3>📞 ติดต่อฉัน</h3>
+                <p class="contact-intro">สนใจติดต่อหรือรู้จักเพิ่มเติม จีบได้ตามช่องทางด้านล่าง ล้อล่นค้าบแยมไม่ให้</p>
+                <div class="contact-grid">
+                    <a href="66070212@kmitl.ac.th" class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                        </svg>
+                        <div>
+                            <strong>Email</strong>
+                            <span>66070212@kmitl.ac.th</span>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/ongsa.theanchai.54" target="_blank" class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                        <div>
+                            <strong>Facebook</strong>
+                            <span>Ongsa Theanchai</span>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/ongsa._t/" target="_blank" class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                        <div>
+                            <strong>Instagram</strong>
+                            <span>@ongsa._t</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Portfolio ของคนที่ 1</p>
+        <div class="footer-links">
+            <a href="index.html">หน้าแรก</a>
+            <a href="person2.html">ดู Portfolio คนที่ 2</a>
+        </div>
+        <p style="margin-top: 1rem; opacity: 0.6;">© 2026 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTop" onclick="scrollToTop()">↑</div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
